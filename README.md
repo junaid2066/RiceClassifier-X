@@ -102,9 +102,22 @@ python SHAP/explain_shap.py
 ## 📊 Visualization
 All model results and feature maps will be saved in the `results/` folder.
 
----
+## 📜 Citation
 
-## 🧠 Authors
-**Muhammad Junaid Asif (AM-Tech)**  
-Rice Grain Classification using Explainable AI — Research Implementation
+If you use this work or dataset in your research, please cite:
 
+@misc{riceclassifier-x,  
+  author = {Muhammad Junaid Asif, Hamza Khan},  
+  title  = {RiceClassifier-X: Rice Grain Classification using CNN and Explainable AI (xAI)},  
+  year   = {2025},
+  publisher = {GitHub},  
+  url    = {https://github.com/junaid2066/RiceClassifier-X}  
+  }
+
+## 👨‍💻 Author
+
+Muhammad Junaid Asif (AM-Tech)  
+Computer Vision and Artificial Intelligence Researcher  
+📧 mjunaid94ee@outlook.com 
+🌐 [[LinkedIn]](https://www.linkedin.com/in/mjunaid94ee/)  
+🌐 [[Portfolio]](https://sites.google.com/view/junaid94ee/about-me)
