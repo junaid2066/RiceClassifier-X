@@ -1,7 +1,7 @@
-# RiceClassifier-X
+# 🍚 RiceClassifier-X: Rice Grain Classification using CNN and Explainable AI (xAI)
 An explainable AI framework for accurate rice grain classification and quality assessment
 
-**📘 Rice Grain Classification using Explainable AI (xAI)**
+**📘 Overview**
 
 This project implements multiple deep learning architectures for rice grain classification along with explainable AI methods (LIME and SHAP) to interpret model decisions.
 
@@ -60,3 +60,52 @@ Rice_Grain_Classification/
 ├── requirements.txt
 └── README.md
 ```
+
+
+## 🚀 How to Run
+
+### Step 1: Install Requirements
+```bash
+pip install -r requirements.txt
+```
+
+### Step 2: Prepare Data
+Place your rice grain images inside `data/raw/` with subfolders as class names.
+
+Example:
+```
+data/raw/
+├── Basmati/
+├── Jasmine/
+├── Arborio/
+```
+
+Run preprocessing script to split into train/val/test:
+```bash
+python scripts/preprocess_data.py
+```
+
+### Step 3: Train Model
+To train any model (example CNN):
+```bash
+python CNN/train_cnn.py
+```
+
+### Step 4: Explain Model
+For LIME or SHAP explainability:
+```bash
+python LIME/explain_lime.py
+python SHAP/explain_shap.py
+```
+
+---
+
+## 📊 Visualization
+All model results and feature maps will be saved in the `results/` folder.
+
+---
+
+## 🧠 Authors
+**Muhammad Junaid Asif (AM-Tech)**  
+Rice Grain Classification using Explainable AI — Research Implementation
+
