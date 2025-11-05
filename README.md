@@ -15,7 +15,7 @@ LIME	Explainability	Local Interpretable Model-Agnostic Explanations
 SHAP	Explainability	SHapley Additive exPlanations for model transparency
 
 #⚙️ Installation
-'''bash
+```bash
 # Clone repository
 git clone https://github.com/yourusername/Rice_Grain_Classification.git
 cd Rice_Grain_Classification
@@ -26,4 +26,4 @@ source venv/bin/activate   # On Windows: venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
-'''
+```
