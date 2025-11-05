@@ -1,11 +1,11 @@
 # RiceClassifier-X
 An explainable AI framework for accurate rice grain classification and quality assessment
 
-#📘 Rice Grain Classification using Explainable AI (xAI)
+# 📘 Rice Grain Classification using Explainable AI (xAI)
 
 This project implements multiple deep learning architectures for rice grain classification along with explainable AI methods (LIME and SHAP) to interpret model decisions.
 
-#🧠 Supported Architectures
+# 🧠 Supported Architectures
 Model	Type	Description
 CNN	Custom	Baseline convolutional model for feature extraction
 ResNet50	Transfer Learning	Deep residual network pre-trained on ImageNet
