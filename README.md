@@ -14,7 +14,7 @@ DenseNet121	Transfer Learning	Dense connections to strengthen gradient flow
 LIME	Explainability	Local Interpretable Model-Agnostic Explanations
 SHAP	Explainability	SHapley Additive exPlanations for model transparency
 
-#⚙️ Installation
+**⚙️ Installation**
 ```bash
 # Clone repository
 git clone https://github.com/yourusername/Rice_Grain_Classification.git
