@@ -27,3 +27,36 @@ source venv/bin/activate   # On Windows: venv\Scripts\activate
 # Install dependencies
 pip install -r requirements.txt
 ```
+
+**📊 Project Folder Overview**
+```bash
+Rice_Grain_Classification/
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── models/
+│   ├── CNN/
+│   ├── ResNet50/
+│   ├── MobileNetV2/
+│   └── DenseNet121/
+│
+├── explainability/
+│   ├── LIME/
+│   └── SHAP/
+│
+├── scripts/
+│   ├── cnn_model.py
+│   ├── resnet50_model.py
+│   ├── mobilenetv2_model.py
+│   ├── densenet121_model.py
+│   ├── lime_explain.py
+│   ├── shap_explain.py
+│   ├── preprocess_data.py
+│
+├── results/
+├── utils.py
+├── requirements.txt
+└── README.md
+```
