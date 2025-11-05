@@ -61,7 +61,6 @@ Rice_Grain_Classification/
 └── README.md
 ```
 
-
 ## 🚀 How to Run
 
 ### Step 1: Install Requirements
